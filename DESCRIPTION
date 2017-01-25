@@ -1,0 +1,18 @@
+Package: MIGSAdata
+Title: MIGSA vignette data
+Version: 0.99.0
+Author: Juan C. Rodriguez, Cristobal Fresno, Andrea S. Llera and Elmer A.
+    Fernandez
+Maintainer: Juan C. Rodriguez <jcrodriguez@bdmg.com.ar>
+Description: MIGSA vignette data.
+    The MIGSAdata package provides several data objects needed by MIGSA package
+    to correctly generate its vignette, and follow it step by step.
+URL: http://www.bdmg.com.ar/
+biocViews: ExperimentData, RepositoryData, ReproducibleResearch, CancerData,
+    BreastCancerData, MicroarrayData
+License: GPL (>= 2)
+Depends:
+    R (>= 3.4)
+Suggests:
+    BiocGenerics
+RoxygenNote: 5.0.1
