@@ -17,12 +17,6 @@ A MIGSA results object obtained using the datasets:
 \item upp (microarray).
 \item vdx (microarray).
 }
-In order to get the MIGSAres object follow:
-library(MIGSAdata);
-library(MIGSA);
-data(bcMigsaResAsList);
-bcMigsaRes <- MIGSA:::MIGSAres.data.table(bcMigsaResAsList$dframe, 
-bcMigsaResAsList$genesRank);
 }
 \details{
 Each dataset subjects were classified using the PAM50 algorithm. For this 
@@ -36,5 +30,12 @@ Datasets were tested for gene set enrichment over:
 \item KEGG gene sets downloaded from enrichr database resulting in 179 gene 
 sets.
 }
+
+In order to get the MIGSAres object follow:
+library(MIGSAdata);
+library(MIGSA);
+data(bcMigsaResAsList);
+bcMigsaRes <- MIGSA:::MIGSAres.data.table(bcMigsaResAsList$dframe, 
+bcMigsaResAsList$genesRank);
 }
 

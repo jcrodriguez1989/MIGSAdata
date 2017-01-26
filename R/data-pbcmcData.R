@@ -1,7 +1,7 @@
 #'Pbcmc breast cancer microarray data.
 #'
-#'Pbcmc package lets download breast cancer microarray datasets, for each one 
-#'we include here its expresion matrix and each subjects subtypes.
+#'Pbcmc package lets download breast cancer microarray datasets, for each, 
+#'here we include its expresion matrix and each subjects subtypes.
 #'Each dataset subjects were classified using the PAM50 algorithm. Only Basal 
 #'and Luminal A subjects were kept.
 #'Datasets are:
